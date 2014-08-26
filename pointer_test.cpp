@@ -30,8 +30,8 @@ void test(char* i_data, char* o_data)
 int main(void)
 {
 	char array[10] = {'e','e','c','f','a','g','h','a','b','d'};
-//	char array[10] = {'a','b','c','d','e','f','g','h','i','j'};
-
+/*	char array[10] = {'a','b','c','d','e','f','g','h','i','j'};
+*/
 	char* bwt_array = new char[10];
 	test(array, bwt_array);
 
